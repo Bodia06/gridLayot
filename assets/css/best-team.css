@@ -1,0 +1,30 @@
+.best__team-container {
+	text-align: center;
+	padding: 0 30px;
+	margin-bottom: 100px;
+}
+
+.best__team-title {
+	color: var(--text-color);
+	margin-bottom: 17px;
+	font-size: 0.688em;
+	line-height: 0.688em;
+	font-weight: 400;
+}
+
+.best__team-title span {
+	font-weight: 700;
+}
+
+.best__team-icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.best__team-icons img {
+	display: inline-block;
+	width: var(--best-team-icons-width);
+	height: var(--best-team-icons-height);
+	object-fit: cover;
+	object-position: center;
+}

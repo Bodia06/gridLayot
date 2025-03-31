@@ -1,0 +1,37 @@
+:root {
+	/* Colors */
+	--color-default: #fff;
+	--title-color: #35414b;
+	--text-color: #4e5a65;
+	--sub__title-bg-color: #f2f9eb;
+	--manage-form-btn-bg-color: #794cff;
+	--header-main-link-get-bg-color: #ece5ff;
+	--header-main-link-get-color: #794cff;
+	--header-sub-t-bg-color: #81c43b;
+	--teamline-bg-color: #fbfafe;
+	--teamline-border-color: #f0ebfa;
+	--teamline-info-active-block: #f6f3fc;
+	--teamline0info-active-block-border-color: #794cff;
+	--make-work__info-item-first--logo-bg-color: #fef6ee;
+	--make-work__info-item-second--logo-bg-color: #e8fafa;
+	--make-work__info-item-third--logo-bg-color: #f7ebf9;
+	--make-work__info-item-fourth--logo-bg-color: #ffeff3;
+	--make-work__info-item-fifth--logo-bg-color: #ede8f7;
+	--make-work__info-item-sixth--logo-bg-color: #fef5ec;
+	--make-work__main-btn-bg-color: #ece5ff;
+	--make-work__main-btn-color: #7259fa;
+	--how-work__info-link-bg-color: #796eff;
+	--how-work__container-bg-color: #fbfafe;
+	--how-work__container-border-color: #f0ebfa;
+	--direct-social__container-bg-color: #796eff;
+	--direct-social__links-item-color: #000;
+	--footer-contant__application-social__links-inner: #000;
+	--footer-bg-color: #1d2830;
+	/* Size-photo */
+	--photo-overviow-width: 384px;
+	--photo-overviow-height: 273px;
+	--best-team-icons-width: 10%;
+	--best-team-icons-height: 20%;
+	--make-work__info-item--logo-size: 20px;
+	--customers-work__info-employees-item--logo-size: 48px;
+}

@@ -1,0 +1,15 @@
+@import url('./assets/css/reset.css');
+@import url('./assets/css/root.css');
+@import url('./assets/css/helper.css');
+@import url('./assets/css/media.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('./assets/css/header.css');
+@import url('./assets/css/manage-team.css');
+@import url('./assets/css/best-team.css');
+@import url('./assets/css/team-line.css');
+@import url('./assets/css/make-work.css');
+@import url('./assets/css/how-work.css');
+@import url('./assets/css/customer-work.css');
+@import url('./assets/css/direct-social.css');
+@import url('./assets/css/footer.css');

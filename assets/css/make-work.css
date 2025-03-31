@@ -1,0 +1,111 @@
+.make-work__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 56px;
+	padding: 0 30px;
+}
+
+.make-work__title {
+	margin-bottom: 40px;
+	color: var(--title-color);
+	font-weight: 600;
+	font-size: 1.125em;
+	line-height: 1.125em;
+}
+
+.make-work__info {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+	justify-content: center;
+	gap: 48px;
+	margin-bottom: 40px;
+}
+
+.make-work__info-item--logo {
+	display: inline-block;
+	margin-bottom: 16px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+}
+
+.make-work__info-item--logo img {
+	padding: 15px;
+	width: var(--make-work__info-item--logo-size);
+	height: var(--make-work__info-item--logo-size);
+}
+
+.make-work__info-item {
+	padding: 0 20px;
+	text-align: center;
+}
+
+.make-work__info-item-fourth {
+	display: none;
+}
+
+.make-work__info-item-fifth {
+	display: none;
+}
+
+.make-work__info-item-sixth {
+	display: none;
+}
+
+.make-work__info-item-first--logo {
+	background-color: var(--make-work__info-item-first--logo-bg-color);
+}
+
+.make-work__info-item-second--logo {
+	background-color: var(--make-work__info-item-second--logo-bg-color);
+}
+
+.make-work__info-item-third--logo {
+	background-color: var(--make-work__info-item-third--logo-bg-color);
+}
+
+.make-work__info-item-fourth--logo {
+	background-color: var(--make-work__info-item-fourth--logo-bg-color);
+}
+
+.make-work__info-item-fifth--logo {
+	background-color: var(--make-work__info-item-fifth--logo-bg-color);
+}
+
+.make-work__info-item-sixth--logo {
+	background-color: var(--make-work__info-item-sixth--logo-bg-color);
+}
+
+.make-work__info-item--title {
+	white-space: nowrap;
+	margin-bottom: 8px;
+	color: var(--title-color);
+	font-weight: 600;
+	font-size: 1.125em;
+	line-height: 1.125em;
+}
+
+.make-work__info-item--describition {
+	color: var(--text-color);
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.make-work__main-btn {
+	border: none;
+	border-radius: 4px;
+	background-color: var(--make-work__main-btn-bg-color);
+	padding: 18px 85px;
+	color: var(--make-work__main-btn-color);
+	font-weight: 500;
+	white-space: nowrap;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}

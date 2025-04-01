@@ -40,6 +40,11 @@
 		font-weight: 400;
 		text-decoration: none;
 		white-space: nowrap;
+		transition: transform 0.4s;
+		-webkit-transition: transform 0.4s;
+		-moz-transition: transform 0.4s;
+		-ms-transition: transform 0.4s;
+		-o-transition: transform 0.4s;
 	}
 
 	.header__main-nav__list-item a::after {
@@ -52,6 +57,14 @@
 		-moz-transform: rotate(90deg);
 		-ms-transform: rotate(90deg);
 		-o-transform: rotate(90deg);
+	}
+
+	.header__main-nav__list-item a:hover {
+		transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		-o-transform: scale(1.1);
 	}
 
 	header .header__main-links {
@@ -173,7 +186,13 @@
 	}
 
 	.direct-social__container .direct-social__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 30px;
 		border-radius: 20px;
+		padding: 20px;
+		width: auto;
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 		-ms-border-radius: 20px;
@@ -202,10 +221,7 @@
 		flex-direction: row;
 	}
 
-	.manage__team-container
-		.manage__team-container__inner
-		.manage__team-form
-		.manage__team-form__input__email {
+	.manage__team-form__input__email {
 		margin: 0;
 		border: 1px solid #e1e5ea;
 		border-radius: 4px 0 0 4px;
@@ -216,10 +232,7 @@
 		-o-border-radius: 4px 0 0 4px;
 	}
 
-	.manage__team-container
-		.manage__team-container__inner
-		.manage__team-form
-		.manage__team-form__button__submit {
+	.manage__team-form__button__submit {
 		border-radius: 0 4px 4px 0;
 		padding: 18px 45px;
 		-webkit-border-radius: 0 4px 4px 0;
@@ -250,22 +263,56 @@
 }
 
 @media (min-width: 1100px) {
+	body header {
+		padding: 40px 200px;
+	}
 	.manage__team-container .manager__team-title__main {
 		font-size: 3em;
 	}
 
 	main .manage__team-container {
-		padding: 0 100px;
+		padding: 0 200px;
+	}
+
+	main .best__team-container {
+		padding: 0 250px;
 	}
 
 	main .teamline__container {
 		flex-direction: row;
 		gap: 40px;
-		padding: 20px 40px 0;
+		padding: 61px 168px;
+	}
+
+	.teamline__container .teamline__info-item {
+		text-align: left;
+	}
+
+	.teamline__container .teamline__item-first {
+		border-bottom: none;
+		border-left: 3px solid var(--teamline0info-active-block-border-color);
+		border-radius: 0 10px 10px 0;
+		-webkit-border-radius: 0 10px 10px 0;
+		-moz-border-radius: 0 10px 10px 0;
+		-ms-border-radius: 0 10px 10px 0;
+		-o-border-radius: 0 10px 10px 0;
+	}
+
+	main .make-work__container {
+		padding: 0 168px;
+	}
+
+	.make-work__container .make-work__title {
+		font-size: 2em;
 	}
 
 	main .how-work__container {
 		flex-direction: row-reverse;
+		padding: 67px 198px;
+	}
+
+	.how-work__container .how-work__logo {
+		margin-bottom: 0;
 	}
 
 	.how-work__container .how-work__info {
@@ -277,11 +324,85 @@
 		font-size: 2.5em;
 	}
 
+	main .customers-work__container {
+		padding: 0 260px;
+	}
+
 	main .customers-work__info .customers-work__info-title {
 		font-size: 2em;
 	}
 
+	main .direct-social__container {
+		display: flex;
+		justify-content: center;
+		padding: 0 165px;
+		text-align: center;
+	}
+
+	.direct-social__container .direct-social__inner {
+		flex-direction: row;
+	}
+
 	.direct-social__container .direct-social__title {
+		max-width: 630px;
 		font-size: 2em;
+	}
+
+	body footer {
+		padding: 80px 198px;
+	}
+
+	footer .footer-content__container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	footer .footer-contant__arrow {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.footer-content__container .footer-contant__arrow a::after {
+		display: none;
+	}
+
+	.footer-content__container .footer-contant__company-list {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		list-style: none;
+	}
+
+	footer .footer-content__container .footer-contant__company-list a {
+		font-weight: 400;
+		font-size: 0.75em;
+		white-space: nowrap;
+	}
+
+	.footer-content__container .footer-contant__support-list {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		list-style: none;
+	}
+
+	footer .footer-content__container .footer-contant__support-list a {
+		font-weight: 400;
+		font-size: 0.75em;
+		white-space: nowrap;
+	}
+
+	.footer-content__container .footer-contant__legal-list {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		list-style: none;
+	}
+
+	footer .footer-content__container .footer-contant__legal-list a {
+		font-weight: 400;
+		font-size: 0.75em;
+		white-space: nowrap;
 	}
 }

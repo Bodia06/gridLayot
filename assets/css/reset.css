@@ -150,6 +150,6 @@ select {
 	vertical-align: middle;
 }
 
-body {
+* {
 	box-sizing: border-box;
 }

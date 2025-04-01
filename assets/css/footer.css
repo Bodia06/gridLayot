@@ -35,6 +35,18 @@ footer {
 	-o-transform: rotate(90deg);
 }
 
+.footer-contant__company-list {
+	display: none;
+}
+
+.footer-contant__support-list {
+	display: none;
+}
+
+.footer-contant__legal-list {
+	display: none;
+}
+
 .footer-contant__application {
 	display: flex;
 	flex-direction: column;
@@ -81,9 +93,11 @@ footer {
 
 .footer-contant__application-social__links-item__text {
 	text-align: start;
+	white-space: nowrap;
 }
 
 .footer-contant__application-social__links-item__text-description {
 	margin-bottom: 5px;
 	font-size: 0.65em;
+	white-space: nowrap;
 }

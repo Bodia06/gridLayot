@@ -58,10 +58,12 @@
 }
 
 .direct-social__links-item__text {
+	white-space: nowrap;
 	text-align: start;
 }
 
 .direct-social__links-item__text-description {
+	white-space: nowrap;
 	margin-bottom: 5px;
 	font-size: 0.65em;
 }

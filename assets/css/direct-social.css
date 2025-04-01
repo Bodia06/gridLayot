@@ -12,7 +12,7 @@
 	margin-bottom: 32px;
 	color: var(--color-default);
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	line-height: 1.7em;
 	text-align: center;
 }
@@ -65,5 +65,5 @@
 .direct-social__links-item__text-description {
 	white-space: nowrap;
 	margin-bottom: 5px;
-	font-size: 0.65em;
+	font-size: 0.65rem;
 }

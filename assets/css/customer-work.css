@@ -16,7 +16,7 @@
 	padding: 0 60px;
 	color: var(--title-color);
 	font-weight: 600;
-	font-size: 1.125em;
+	font-size: 1.125rem;
 	line-height: 1.5em;
 }
 
@@ -70,13 +70,13 @@
 	margin-bottom: 8px;
 	color: var(--title-color);
 	font-weight: 600;
-	font-size: 0.813em;
+	font-size: 0.813rem;
 	line-height: 0.813em;
 }
 
 .customers-work__info-employees-item--info__diskription {
 	color: var(--title-color);
 	font-weight: 400;
-	font-size: 0.813em;
+	font-size: 0.813rem;
 	line-height: 0.813em;
 }

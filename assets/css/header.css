@@ -21,7 +21,7 @@ header {
 	display: inline-block;
 	position: relative;
 	font-weight: 400;
-	font-size: 1.25em;
+	font-size: 1.25rem;
 	line-height: 1.25em;
 	font-family: Josefin Sans, sans-serif;
 }
@@ -34,7 +34,7 @@ header {
 	padding-top: 33px;
 	padding-inline: 0;
 	font-weight: 400;
-	font-size: 0.5em;
+	font-size: 0.5rem;
 	line-height: 0.5em;
 	text-transform: uppercase;
 }
@@ -46,7 +46,7 @@ header {
 	transform: translate(-50%, -50%);
 	content: '☰';
 	color: black;
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 .header__main-nav__container {

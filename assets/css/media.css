@@ -1,5 +1,5 @@
 @media (min-width: 576px) {
-	body {
+	html {
 		font-size: 20px;
 	}
 
@@ -22,7 +22,7 @@
 
 	header .header__main-nav__container {
 		display: block;
-		font-size: 0.8em;
+		font-size: 0.8rem;
 	}
 
 	.header__main-nav__list {
@@ -79,7 +79,7 @@
 
 	.header__main-links a {
 		font-weight: 400;
-		font-size: 0.8em;
+		font-size: 0.8rem;
 		text-decoration: none;
 	}
 
@@ -142,7 +142,7 @@
 	}
 
 	.make-work__container .make-work__main-btn {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 
 	main .how-work__container {
@@ -209,7 +209,7 @@
 }
 
 @media (min-width: 850px) {
-	body {
+	html {
 		font-size: 25px;
 	}
 
@@ -267,7 +267,7 @@
 		padding: 40px 200px;
 	}
 	.manage__team-container .manager__team-title__main {
-		font-size: 3em;
+		font-size: 3rem;
 	}
 
 	main .manage__team-container {
@@ -303,7 +303,7 @@
 	}
 
 	.make-work__container .make-work__title {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 
 	main .how-work__container {
@@ -321,7 +321,7 @@
 
 	.how-work__container .how-work__info-title {
 		padding: 0;
-		font-size: 2.5em;
+		font-size: 2.5rem;
 	}
 
 	main .customers-work__container {
@@ -329,7 +329,7 @@
 	}
 
 	main .customers-work__info .customers-work__info-title {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 
 	main .direct-social__container {
@@ -345,7 +345,7 @@
 
 	.direct-social__container .direct-social__title {
 		max-width: 630px;
-		font-size: 2em;
+		font-size: 2rem;
 	}
 
 	body footer {
@@ -376,7 +376,7 @@
 
 	footer .footer-content__container .footer-contant__company-list a {
 		font-weight: 400;
-		font-size: 0.75em;
+		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 
@@ -389,7 +389,7 @@
 
 	footer .footer-content__container .footer-contant__support-list a {
 		font-weight: 400;
-		font-size: 0.75em;
+		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 
@@ -402,7 +402,7 @@
 
 	footer .footer-content__container .footer-contant__legal-list a {
 		font-weight: 400;
-		font-size: 0.75em;
+		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 }

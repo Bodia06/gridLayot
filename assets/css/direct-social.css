@@ -4,12 +4,12 @@
 
 .direct-social__inner {
 	background-color: var(--direct-social__container-bg-color);
-	padding: 32px 10px;
+	padding: 2em 0.625em;
 	width: 100%;
 }
 
 .direct-social__title {
-	margin-bottom: 32px;
+	margin-bottom: 1em;
 	color: var(--color-default);
 	font-weight: 600;
 	font-size: 1.2rem;
@@ -22,14 +22,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 25px;
+	gap: 1.5625em;
 }
 
 .derict-social__links-inner {
 	display: inline-block;
 	border-radius: 4px;
 	background-color: var(--color-default);
-	padding: 10px 14px;
+	padding: 0.625em 0.875em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
@@ -37,7 +37,8 @@
 }
 
 .derict-social__links-inner__second {
-	padding: 10px;
+	padding: 0.625em 1.4em;
+	padding: 0.625em;
 }
 
 .direct-social__links-item {
@@ -49,12 +50,13 @@
 }
 
 .direct-social__links-item--first {
-	gap: 15px;
+	gap: 0.9375em;
+	padding: 0 0.75em;
 }
 
 .direct-social__links-item--second {
-	gap: 5px;
-	padding: 0 12px;
+	gap: 0.3125em;
+	padding: 0 0.75em;
 }
 
 .direct-social__links-item__text {
@@ -64,6 +66,6 @@
 
 .direct-social__links-item__text-description {
 	white-space: nowrap;
-	margin-bottom: 5px;
+	margin-bottom: 0.3125em;
 	font-size: 0.65rem;
 }

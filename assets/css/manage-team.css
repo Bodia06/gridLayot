@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 0 30px;
+	padding: 0 1.875em;
 }
 
 .manage__team-container__inner {
@@ -13,8 +13,12 @@
 	align-items: center;
 }
 
+.manager__team-title {
+	margin-bottom: 2em;
+}
+
 .manage__team-sub {
-	margin-bottom: 16px;
+	margin-bottom: 1em;
 }
 
 .manage__team-sub__title {
@@ -22,7 +26,7 @@
 	align-items: center;
 	border-radius: 100px;
 	background-color: var(--sub__title-bg-color);
-	padding: 4px 46px;
+	padding: 0.25em 2.875em;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	-ms-border-radius: 100px;
@@ -39,12 +43,12 @@
 }
 
 .sub__title-link::after {
-	margin-right: 4px;
+	margin-right: 0.25em;
 	content: '>';
 }
 
 .manager__team-title {
-	margin-bottom: 16px;
+	margin-bottom: 1em;
 }
 
 .manager__team-title__main {
@@ -55,8 +59,11 @@
 	text-align: center;
 }
 
+.manage__team-info {
+	margin-bottom: 1em;
+}
+
 .manage__team-info__describtion {
-	margin-bottom: 16px;
 	color: var(--text-color);
 	font-weight: 400;
 	line-height: 1.5em;
@@ -71,8 +78,8 @@
 }
 
 .manage__team-form__input__email {
-	margin-bottom: 8px;
-	padding: 18px 61px;
+	margin-bottom: 0.5em;
+	padding: 1.125em 3.8125em;
 }
 
 .manage__team-form__button__submit {
@@ -85,7 +92,7 @@
 	white-space: nowrap;
 	transition: transform 0.4s;
 	background-color: var(--manage-form-btn-bg-color);
-	padding: 18px 122px;
+	padding: 1.125em 7.625em;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;

@@ -7,7 +7,7 @@ header {
 	gap: 30px;
 	justify-content: space-between;
 	margin-bottom: 65px;
-	padding: 35px 30px;
+	padding: 2.1875em 1.875em;
 }
 
 .header__main-logo {
@@ -31,7 +31,7 @@ header {
 	cursor: pointer;
 	border: none;
 	background-color: transparent;
-	padding-top: 33px;
+	padding-top: 7em;
 	padding-inline: 0;
 	font-weight: 400;
 	font-size: 0.5rem;

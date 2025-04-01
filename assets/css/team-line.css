@@ -3,17 +3,17 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 56px;
-	padding: 0 30px;
+	margin-bottom: 3.5em;
 	background-color: var(--teamline-bg-color);
+	padding: 0 1.875em;
 }
 
 .teamline__logo {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 32px;
-	padding: 0 10px;
+	margin-bottom: 2em;
+	padding: 0 0.625em;
 	width: auto;
 	max-width: 100%;
 }
@@ -31,30 +31,30 @@
 }
 
 .teamline__info-item {
-	padding: 0 30px;
+	margin-bottom: 1em;
 	border-bottom: 1px solid var(--teamline-border-color);
+	padding: 0.625em 1.875em;
 }
 
 .teamline__info-item--title {
-	margin-bottom: 10px;
-	padding-top: 18px;
+	margin-bottom: 0.625em;
 	color: var(--title-color);
 	font-weight: 600;
-	font-size: 1.125rem;
+	font-size: 1.1rem;
 	line-height: 1.125em;
 }
 
 .teamline__info-item--description {
-	margin-bottom: 26px;
 	color: var(--text-color);
 	font-weight: 400;
+	font-size: 0.8rem;
 	line-height: 1.5em;
 }
 
 .teamline__item-first {
-	background-color: var(--teamline-info-active-block);
-	border-radius: 10px 10px 0 0;
 	border-bottom: 3px solid var(--teamline0info-active-block-border-color);
+	border-radius: 10px 10px 0 0;
+	background-color: var(--teamline-info-active-block);
 	-webkit-border-radius: 10px 10px 0 0;
 	-moz-border-radius: 10px 10px 0 0;
 	-ms-border-radius: 10px 10px 0 0;

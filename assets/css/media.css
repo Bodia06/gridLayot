@@ -36,11 +36,11 @@
 
 	.header__main-nav__list-item a {
 		display: inline-block;
+		transition: transform 0.4s;
 		color: var(--title-color);
 		font-weight: 400;
 		text-decoration: none;
 		white-space: nowrap;
-		transition: transform 0.4s;
 		-webkit-transition: transform 0.4s;
 		-moz-transition: transform 0.4s;
 		-ms-transition: transform 0.4s;
@@ -260,18 +260,27 @@
 	.customers-work__info-employees .customers-work__info-employees-item-third {
 		display: inline-flex;
 	}
+
+	.derict-social__links-inner__second {
+		padding: 0.625em;
+	}
 }
 
 @media (min-width: 1100px) {
 	body header {
 		padding: 40px 200px;
 	}
-	.manage__team-container .manager__team-title__main {
-		font-size: 3rem;
-	}
 
 	main .manage__team-container {
 		padding: 0 200px;
+	}
+
+	.manage__team-container .manager__team-title__main {
+		font-size: 3.3rem;
+	}
+
+	.manage__team-container .manage__team-info {
+		max-width: 500px;
 	}
 
 	main .best__team-container {
@@ -303,6 +312,7 @@
 	}
 
 	.make-work__container .make-work__title {
+		margin-bottom: 1em;
 		font-size: 2rem;
 	}
 
@@ -321,15 +331,15 @@
 
 	.how-work__container .how-work__info-title {
 		padding: 0;
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 
 	main .customers-work__container {
-		padding: 0 260px;
+		padding: 0 200px;
 	}
 
 	main .customers-work__info .customers-work__info-title {
-		font-size: 2rem;
+		font-size: 1.4rem;
 	}
 
 	main .direct-social__container {
@@ -344,63 +354,64 @@
 	}
 
 	.direct-social__container .direct-social__title {
+		min-width: 450px;
 		max-width: 630px;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	body footer {
 		padding: 80px 198px;
 	}
 
-	footer .footer-content__container {
+	.footer-content__container {
 		flex-direction: row;
 		justify-content: space-between;
 	}
 
-	footer .footer-contant__arrow {
+	.footer-contant__arrow {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
 	}
 
-	.footer-content__container .footer-contant__arrow a::after {
+	.footer-contant__arrow a::after {
 		display: none;
 	}
 
-	.footer-content__container .footer-contant__company-list {
+	.footer-contant__company-list {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
 		list-style: none;
 	}
 
-	footer .footer-content__container .footer-contant__company-list a {
+	.footer-contant__company-list a {
 		font-weight: 400;
 		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 
-	.footer-content__container .footer-contant__support-list {
+	.footer-contant__support-list {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
 		list-style: none;
 	}
 
-	footer .footer-content__container .footer-contant__support-list a {
+	.footer-contant__support-list a {
 		font-weight: 400;
 		font-size: 0.75rem;
 		white-space: nowrap;
 	}
 
-	.footer-content__container .footer-contant__legal-list {
+	.footer-contant__legal-list {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
 		list-style: none;
 	}
 
-	footer .footer-content__container .footer-contant__legal-list a {
+	.footer-contant__legal-list a {
 		font-weight: 400;
 		font-size: 0.75rem;
 		white-space: nowrap;

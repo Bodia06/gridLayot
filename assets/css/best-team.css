@@ -1,12 +1,12 @@
 .best__team-container {
 	text-align: center;
-	padding: 0 30px;
+	padding: 0 1.875em;
 	margin-bottom: 100px;
 }
 
 .best__team-title {
 	color: var(--text-color);
-	margin-bottom: 17px;
+	margin-bottom: 1.0625em;
 	font-size: 0.688rem;
 	line-height: 0.688em;
 	font-weight: 400;

@@ -3,8 +3,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 56px;
-	padding: 0 30px;
+	margin-bottom: 3.5em;
+	padding: 0 1.875em;
 }
 
 .customers-work__info {
@@ -12,16 +12,17 @@
 }
 
 .customers-work__info-title {
-	margin-bottom: 40px;
-	padding: 0 60px;
+	margin-bottom: 1.5em;
+	padding: 0 3.75em;
 	color: var(--title-color);
 	font-weight: 600;
-	font-size: 1.125rem;
+	font-size: 1.2rem;
 	line-height: 1.5em;
 }
 
 .customers-work__info-discription {
-	margin-bottom: 40px;
+	font-size: 0.876rem;
+	margin-bottom: 2.5em;
 	color: var(--text-color);
 	font-style: italic;
 	font-weight: 400;
@@ -29,7 +30,7 @@
 }
 
 .customers-work__info-employees-item {
-	padding: 20px 0;
+	padding: 1.25em 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -46,7 +47,7 @@
 }
 
 .customers-work__info-employees-item--logo {
-	margin-bottom: 9px;
+	margin-bottom: 0.5625em;
 }
 
 .customers-work__info-employees-item--logo img {
@@ -67,7 +68,7 @@
 }
 
 .customers-work__info-employees-item--info__title {
-	margin-bottom: 8px;
+	margin-bottom: 0.5em;
 	color: var(--title-color);
 	font-weight: 600;
 	font-size: 0.813rem;
